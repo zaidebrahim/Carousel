@@ -1,0 +1,64 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 30px;
+}
+.carousel-heading {
+  padding: 10px;
+  font-weight: 500;
+}
+.carousel {
+  display: inline-flex;
+  width: 100%;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.carousel-item {
+  margin: 10px 20px;
+}
+.image-container {
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.name-container {
+  font-weight: 500;
+  color: rgb(180, 180, 180);
+}
+
+/* ...................ScrollBar..................... */
+
+/* width */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c2c0c0;
+  opacity: 0.5;
+}
